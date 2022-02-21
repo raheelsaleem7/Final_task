@@ -8,6 +8,10 @@
     padding: 10px 150px;
     margin: 0 auto;
     max-width: 1440px;
+    @media screen and (max-width:480px) {
+        flex-wrap: wrap;
+    padding: 0px;
+    }
           .left {
             display: flex;
             align-items: center;
