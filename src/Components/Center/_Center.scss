@@ -1,0 +1,112 @@
+@import "../../assests/variable/Variable";
+
+.center {
+
+    .center_container {
+        display: flex;
+        padding: 43px 0px;
+        margin: 0 auto;
+    max-width: 1440px;
+        .mob {
+          display: flex;
+        
+        .mobile {
+            text-align: center;
+            img {
+                width: 60%;
+            }
+        }
+        .click {
+            transform: rotate(90deg);
+            display: flex;
+            align-items: center;
+        
+            .circle {
+            img {
+                width: 20px;
+            
+            }
+        }
+         .clickME {
+            button {
+                border: none;
+                outline: none;
+                background: transparent;
+                color: white;
+            }
+        }
+        }
+    }
+        .description {
+            display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+             .context {
+                display: table;
+                   h2 {
+                     color: $white;
+                     text-align: end;
+                     font-size: 35px;
+                     font-family: cursive;
+                   }
+             }
+             p {
+                color: $white;
+                text-align-last: right;
+                font-size: 12px;
+                padding-top: 10px;
+             }
+             .btn {
+                 display: flex;
+                 align-items: center;
+                 padding: 16px 0px;
+             .explore {
+
+                button {
+                    outline: none;
+                    background: transparent;
+                    padding: 15px;
+                    border-radius: 21px;
+                    cursor: pointer;
+                    transition: .7s;
+                    color: $white;
+                border: 1px solid $border;
+                &:hover {
+                    background-color: white;
+                    color: $border;
+                }
+                }
+             }
+             .buy {
+                margin-left: 14px;
+                  button {
+                    outline: none;
+                    background: linear-gradient(to right, #9F62E4, #785DEA,#5E5AEF, #3056F7);
+                    padding: 15px;
+                    border-radius: 21px;
+                    cursor: pointer;
+                    transition: .7s;
+                    color: white;
+                border: none;
+                &:hover {
+                    background: transparent;
+                    color: $white;
+                    border: 1px solid $border;
+                }
+                
+                  }
+                }
+             }
+        }
+        .dot-img {
+            display: flex;
+            flex-direction: column;
+            padding: 23px;
+        
+            img {
+                width: 117px;
+                margin-top: 42px;
+            }
+        }
+    }
+}

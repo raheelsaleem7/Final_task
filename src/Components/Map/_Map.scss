@@ -1,0 +1,98 @@
+@import '../../assests/variable/Variable';
+.map {
+    margin-top: 100px;
+    .map_container {
+        text-align: center;
+        position: relative;
+        img {
+        height: 427px;
+        
+        }
+        .area {
+            display: flex;
+            background: linear-gradient(to right, #E38B71, #E65B89, #E74992, #E74594);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    flex-direction: column;
+    justify-content: center;
+    color: $white;
+    position: absolute;
+    top: 15%;
+    font-size: 10px;
+    left: 27%;
+        }
+        .area2 {
+            display: flex;
+            background: linear-gradient(to right, #C67EDE, #B078E1, #9271E5, #816DE7);
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            flex-direction: column;
+            justify-content: center;
+            color: white;
+            top: 66%;
+            left: 38%;
+            position: absolute;
+            font-size: 10px;
+    
+        }
+        .area3 {
+            display: flex;
+            background: linear-gradient(to right, #E38B71, #B54EB7, #9062D7, #8369E2);
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            flex-direction: column;
+            justify-content: center;
+            color: white;
+            position: absolute;
+            left: 47%;
+            top: 55%;
+            font-size: 10px;
+        
+        }
+        .area4 {
+            left: 51%;
+            top: 9%;
+            display: flex;
+            background: linear-gradient(to right, #F8C470, #F8C470, #FAAE7C, #FDA881);
+            width: 80px;
+            position: absolute;
+            height: 80px;
+    border-radius: 50%;
+    flex-direction: column;
+    justify-content: center;
+    color: $white;
+    font-size: 10px;
+        }
+        .area5 {
+            display: flex;
+            background: linear-gradient(to right, #7BC0FB, #66B4FF, #6291FB, #607FF9);
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            flex-direction: column;
+            justify-content: center;
+            color: white;
+            position: absolute;
+            top: 9%;
+            left: 63%;
+        
+        }
+        .area6 {
+            display: flex;
+            background: linear-gradient(to right, #8EE498, #7FD1BC, #6DBEDF, #68B7EB);
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            flex-direction: column;
+            justify-content: center;
+            color: white;
+            position: absolute;
+            left: 65%;
+            top: 73%;
+            font-size: 10px;
+        }
+    }
+}

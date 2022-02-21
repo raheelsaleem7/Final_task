@@ -1,0 +1,78 @@
+@import '../../assests/variable/Variable';
+.footer {
+    background-image:url('../../images/feature-shape\ \(1\).png');
+    background-repeat: no-repeat;
+   
+    .for_text {
+        text-align: center;
+
+        p {
+       color: $color;
+  }
+  h2 {
+      color: $color2;
+      font-family: cursive;
+  }
+  span {
+      color: $color3;
+  }
+ }
+   .footer_container {
+   
+    display: grid;
+    align-items: center;
+    text-align-last: end;
+    grid-template-columns: 50% 50%;
+    margin: 0 auto;
+    max-width: 1280px;
+    .for_picture {
+        text-align: -webkit-right;
+ 
+   .content_footer {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid gray;
+    height: 128px;
+    border-radius: 8px;
+    margin-top: 15px;
+    width: 61%;
+    transition: .7s;
+    cursor: pointer;
+
+    h3 {
+       color: $color2;
+       font-size: 17px;
+    }
+    p {
+        color: $color3;
+        font-size: 10px;
+    text-align-last: end;
+    }
+    &:hover {
+        background-image: url('../../images/banner-bg-1.jpg');
+        color: $white;
+        h3 {
+            color: white;
+        }
+        p {
+            color: white;
+        }
+    }
+    .pro {
+        margin-left: 17px;
+        img {
+            
+        }
+     }
+}
+    }
+
+.pro-main {
+    text-align-last: center;
+    img {
+        width: 60%;
+    }
+}
+   }
+}

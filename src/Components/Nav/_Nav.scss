@@ -1,0 +1,67 @@
+@import '../../assests/variable/Variable';
+
+.nav {
+    .nav-container {
+        display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 150px;
+    margin: 0 auto;
+    max-width: 1440px;
+          .left {
+            display: flex;
+            align-items: center;
+        .mosto {
+            button {
+                outline: none;
+    background: transparent;
+    padding: 15px;
+    border-radius: 21px;
+    cursor: pointer;
+    transition: .7s;
+    color: $white;
+border: 1px solid $border;
+&:hover {
+    background-color: white;
+    color: $border;
+}
+            }
+        }
+        .pk {
+            margin-left: 21px;
+        .down-icon {
+            svg {
+
+            }
+        }
+        h4 {
+            color: $white;
+        }
+
+              } 
+               }
+    .right {
+        display: flex;
+        align-items: center;
+         .for-list {
+             
+            ul {
+                list-style-type: none;
+                display: flex;
+                align-items: center;
+                li {
+                    color: $white;
+                    span {
+                        margin-right: 15px;
+                    }
+                }
+            }
+         }
+         .logo {
+             img {
+
+             }
+         }
+    }
+}
+}
