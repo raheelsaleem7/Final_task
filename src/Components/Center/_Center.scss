@@ -1,27 +1,48 @@
 @import "../../assests/variable/Variable";
 
 .center {
-
+    width: 100%;
     .center_container {
         display: flex;
         padding: 43px 0px;
         margin: 0 auto;
     max-width: 1440px;
+    @media screen and (max-width:480px) {
+        padding: 52px 29px;
+   }
         .mob {
           display: flex;
+          width: 50%;
+          @media screen and (max-width:480px) {
+         width: 50% !important;
+         align-items: center;
+       }
         
         .mobile {
             text-align: center;
+           
+           @media screen and (max-width:768px) {
+               width: 50%;
+           }
+    
             img {
-                width: 60%;
+                width: 67%;
+                @media screen and (max-width:480px) {
+                    width: 100% !important;
+                }
+                @media screen and (max-width:768px) {
+                    width: 100%;
+                }
             }
         }
         .click {
             transform: rotate(90deg);
             display: flex;
             align-items: center;
+            flex: none;
         
             .circle {
+                margin-right: 13px;
             img {
                 width: 20px;
             
@@ -40,7 +61,11 @@
         .description {
             display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: flex-end;
+    width: 35%;
+    @media screen and (max-width:480px) {
+        width: 50% !important;
+      }
              .context {
                 display: table;
                    h2 {
@@ -48,13 +73,26 @@
                      text-align: end;
                      font-size: 35px;
                      font-family: cursive;
+                     letter-spacing: 2px;
+                     @media screen and (max-width:480px) {
+                        font-size: 20px !important;
+                   }
+                     @media screen and (max-width:768px) {
+                          font-size: 30px;
+                     }
                    }
              }
              p {
                 color: $white;
                 text-align-last: right;
-                font-size: 12px;
+                font-size: 13px;
                 padding-top: 10px;
+                @media screen and (max-width:480px) {
+                    font-size: 8px !important;
+               }
+                @media screen and (max-width:768px) {
+                    font-size: 10px;
+               }
              }
              .btn {
                  display: flex;
@@ -65,12 +103,19 @@
                 button {
                     outline: none;
                     background: transparent;
-                    padding: 15px;
+                    padding: 14px;
                     border-radius: 21px;
                     cursor: pointer;
                     transition: .7s;
                     color: $white;
                 border: 1px solid $border;
+                font-size: 8px;
+                @media screen and (max-width:480px) {
+                    font-size: 7px !important;
+               }
+                @media screen and (max-width:768px) {
+                   padding: 10px;
+               }
                 &:hover {
                     background-color: white;
                     color: $border;
@@ -82,12 +127,16 @@
                   button {
                     outline: none;
                     background: linear-gradient(to right, #9F62E4, #785DEA,#5E5AEF, #3056F7);
-                    padding: 15px;
+                    padding: 14px;
                     border-radius: 21px;
                     cursor: pointer;
                     transition: .7s;
                     color: white;
                 border: none;
+                font-size: 8px;
+                @media screen and (max-width:480px) {
+                    font-size: 7px !important;
+               }
                 &:hover {
                     background: transparent;
                     color: $white;
@@ -99,14 +148,15 @@
              }
         }
         .dot-img {
-            display: flex;
-            flex-direction: column;
-            padding: 23px;
+           background-image: url("../../images/dot-big.png");
+          width: 15%;
+          background-repeat: no-repeat;
+        background-position: center;
+        @media screen and (max-width:768px) {
+            display: none;
+        }
+
         
-            img {
-                width: 117px;
-                margin-top: 42px;
-            }
         }
     }
 }

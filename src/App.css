@@ -8,5 +8,10 @@
    height: 506px;
    background-repeat: no-repeat;
    background-position: top;
+  overflow: hidden;
 }
- 
+@media screen and (max-width:480px) {
+.bg {
+        height: 300px;
+}     
+}

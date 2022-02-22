@@ -26,6 +26,13 @@
     grid-template-columns: 50% 50%;
     margin: 0 auto;
     max-width: 1280px;
+    @media screen and (max-width:480px) {
+        flex-wrap: wrap;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 22px;
+    }
     .for_picture {
         text-align: -webkit-right;
  
@@ -39,6 +46,10 @@
     margin-top: 15px;
     width: 61%;
     transition: .7s;
+    @media screen and (max-width:480px) {
+        width: 100%;
+    }
+    
     cursor: pointer;
 
     h3 {

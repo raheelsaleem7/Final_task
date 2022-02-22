@@ -9,10 +9,12 @@ import Productive from './Components/Productive/Productive';
 function App() {
   return (
     <div className="App">
-      <div className='bg'>
+        <div className='bg'>
       <Nav />
       <Center />
-    </div>
+      
+      </div>
+    
     <Productive />
     <Feedback />
     <Footer />

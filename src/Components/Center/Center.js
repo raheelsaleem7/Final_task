@@ -2,7 +2,7 @@ import React from 'react'
 import './_Center.scss'
 import mob from '../../images/banner1-2.png'
 import click from '../../images/click.png'
-import dot from '../../images/dot-big.png'
+
 
 function Center() {
   return (
@@ -42,8 +42,8 @@ function Center() {
         </div>
 </div>
 <div className='dot-img'>
- <img src={ dot} />
- <img src={ dot} />
+ 
+ 
 </div>
         </div>
     </div>
