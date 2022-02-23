@@ -1,9 +1,11 @@
 @import '../../assests/variable/Variable';
+
 .footer {
     background-image:url('../../images/feature-shape\ \(1\).png');
     background-repeat: no-repeat;
     margin: 0 auto;
     max-width: 1440px;
+    margin-top: 151px;
     .for_text {
         text-align: center;
 
@@ -13,6 +15,7 @@
   h2 {
       color: $color2;
       font-family: cursive;
+      line-height: 52px;
   }
   span {
       color: $color3;

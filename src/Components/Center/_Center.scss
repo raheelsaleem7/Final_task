@@ -134,13 +134,14 @@
                     color: white;
                 border: none;
                 font-size: 8px;
+                border: 1px solid $border;
                 @media screen and (max-width:480px) {
                     font-size: 7px !important;
                }
                 &:hover {
                     background: transparent;
                     color: $white;
-                    border: 1px solid $border;
+                   
                 }
                 
                   }

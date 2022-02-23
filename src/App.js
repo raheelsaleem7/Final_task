@@ -12,7 +12,7 @@ function App() {
         <div className='bg'>
       <Nav />
       <Center />
-      
+      <div className='curve'></div>
       </div>
     
     <Productive />

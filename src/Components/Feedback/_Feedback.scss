@@ -7,14 +7,18 @@
     text-align: center;
         p {
       color: $color;
+      font-weight: 500;
         }
 
         h2 {
             color: $color2;
             font-family: cursive;
+            letter-spacing: 2px;
+            line-height: 43px;
         }
         span {
             color: $color3;
+            width: 200px;
         }
         .three {
             display: flex;
@@ -26,6 +30,7 @@
             display: flex;
     flex-direction: column;
     position: relative;
+    align-items: center;
             .for_img {
 
                 img {
@@ -44,7 +49,7 @@
                     right: 70%;
                     top: 5%;
                     h2 {
-           color: $white;
+                         color: $white;
                     }
                    
                 }
@@ -52,7 +57,7 @@
                     outline: none;
     background: transparent;
     cursor: pointer;
-    transition: .5s;
+    transition: .7s;
     padding: 12px 29px;
     border-radius: 33px;
     border: 1px solid #C9C6F6;
@@ -68,10 +73,12 @@
                 h4 {
                     margin-top: 11px;
                     color: $color2;
+                    width: 165px;
                     span {
                         color: blue;
                         text-decoration: underline;
                         margin-top: 11px;
+                        width: 192px;
                     }
                 }
                 p {

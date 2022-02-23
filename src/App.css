@@ -15,3 +15,10 @@
         height: 300px;
 }     
 }
+.curve {
+  background-image: url('./images/banner1-shape.png');
+  height: 108%;
+    width: 100%;
+    margin-top: -570px;
+    background-size: cover;
+}

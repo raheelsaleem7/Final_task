@@ -63,6 +63,11 @@ border: 1px solid $border;
                 align-items: center;
                 li {
                     color: $white;
+                    cursor: pointer;
+                    transition: .6s;
+                    &:hover {
+                        color: $shadow;
+                    }
                     span {
                         margin-right: 15px;
                     }
