@@ -12,9 +12,11 @@ function App() {
         <div className='bg'>
       <Nav />
       <Center />
-      <div className='curve'></div>
+     
       </div>
-    
+      <div className='curve'></div>
+
+      <div className='curve2'></div>
     <Productive />
     <Feedback />
     <Footer />

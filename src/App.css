@@ -5,10 +5,12 @@
 }
 .bg {
    background-image: url('./images/banner-bg-1.jpg');
-   height: 506px;
    background-repeat: no-repeat;
    background-position: top;
   overflow: hidden;
+  z-index: 10;
+  padding-bottom: 150px;
+
 }
 @media screen and (max-width:480px) {
 .bg {
@@ -17,8 +19,62 @@
 }
 .curve {
   background-image: url('./images/banner1-shape.png');
-  height: 108%;
+  height: 440px;
     width: 100%;
-    margin-top: -570px;
     background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    max-width: 1440px;
+    background-position: center bottom;
+    position: absolute;
+    bottom: 49px;
+    
+
+}
+@media screen and (max-width:768px) {
+  .curve {
+    bottom: 186px !important;
+    height: 279px;
+
+  }
+}
+@media screen and (max-width:1440px) {
+   .curve {
+     bottom: 26px !important;
+   }
+}
+@media screen and (max-width:1024px) {
+  .curve {
+    bottom: 151px !important;
+  }
+}
+.curve2 {
+  background-image: url('./images/feature-shape.png');
+  height: 374px;
+  width: 100%;
+  bottom: -367px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  max-width: 1440px;
+  background-position: center top;
+  position: absolute;
+
+}
+@media screen and (max-width:768px) {
+  .curve2 {
+    bottom: -127px !important;
+    height: 279px;
+
+  }
+}
+@media screen and (max-width:1440px) {
+  .curve2 {
+    bottom: -346px;
+  }
+}
+@media screen and (max-width:1024px) {
+  .curve2 {
+    bottom: -222px;
+  }
 }

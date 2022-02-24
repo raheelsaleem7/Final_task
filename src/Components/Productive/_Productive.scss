@@ -1,23 +1,16 @@
 @import "../../assests/variable/Variable";
 
 .productive {
-   
-    .curve2 {
-        background-image: url("../../images/feature-shape.png");
-        height: 100%;
-        width: 100%;
-        background-size: cover;
-    }
+
     .productive_container {
         display: flex;
         align-items: center;
         background-image: url('../../images/pricing-bg.jpg');
         background-repeat: no-repeat;
         background-position: center;
-        height: 500px;
+        height: 752px;
         margin: 0 auto;
         max-width: 1480px;
-        overflow: hidden;
         .productive_content {
             text-align-last: center;
             z-index: 1;
@@ -31,11 +24,15 @@
                 top: 31%;
                 right: 43%;
                 text-align: -webkit-center;
+                @media screen and (max-width:768px) {
+                    right: 38%;
+                    top: 24%;
+                }
                         
                 h4 {
-               color: $white;
-               margin-bottom: 18px;
-    font-family: cursive;
+                   color: $white;
+                   margin-bottom: 18px;
+                   font-family: cursive;
                 }
 
                 .play {
@@ -56,7 +53,12 @@
             }
         }
         .down_arrow {
-
+            position: relative;
+    top: -151px;
+    right: 184px;
+    @media screen and (max-width:768px) {
+        right: 123px;
+      }
             img {
                 width: 52%;
             }
@@ -66,14 +68,14 @@ position: relative;
         .productive_context {
             line-height: 44px;
             position: absolute;
-    bottom: 222%;
+    bottom: 45%;
     @media screen and (max-width:480px) {
        display: none;
     }
     @media screen and (max-width:768px) {
-        bottom: 190%;
-        line-height: 20px;
-        right: 21%;
+        bottom: 171% !important;
+        line-height: 20px !important;
+        right: 41% !important;
     }
     @media screen and (max-width:1024px) {
        
@@ -81,6 +83,13 @@ position: relative;
     right: 28%;
     width: 312px;
            }
+           @media screen and (max-width:1440px) {
+       
+            bottom: 110%;
+            right: 53%;
+    width: 100%;
+        
+               }
             h5 {
                  color: $color;
                  text-align: end;
@@ -122,6 +131,10 @@ position: relative;
         }
         .productive_context2 {
             line-height: 44px;
+            position: relative;
+            right: 53%;
+            top: 164px;
+        
             @media screen and (max-width:480px) {
                 display: none;
             }
@@ -179,8 +192,8 @@ position: relative;
            align-items: center;
            padding: 14px;
     border-radius: 10px;
-    height: 149px;
-    width: 120px;
+    height: 169px;
+    width: 140px;
     justify-content: center;
     transition: .7s ease-in-out;
     cursor: pointer;

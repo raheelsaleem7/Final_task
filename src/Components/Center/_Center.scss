@@ -7,6 +7,7 @@
         padding: 43px 0px;
         margin: 0 auto;
     max-width: 1440px;
+    position: relative;
     @media screen and (max-width:480px) {
         padding: 52px 29px;
    }
@@ -20,6 +21,7 @@
         
         .mobile {
             text-align: center;
+            z-index: 1;
            
            @media screen and (max-width:768px) {
                width: 50%;
